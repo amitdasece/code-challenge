@@ -16,6 +16,8 @@ abstract class TestCase extends BaseTestCase
      *
      * @return JsonResponse
      */
+	// defining the response structure ///
+	
 	
 	public function getResponseStructure($data)
     {
