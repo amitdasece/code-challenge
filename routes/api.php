@@ -20,3 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 // Routes defined with Initial Versioning as V1. For further updation we can change the version keeping the older ones untouched //
 
+Route::group(['prefix' => 'V1',], function () {
+	Route::post('/codeChallenge', [CodeChallengeController::class, 'codeChallenge']);
+	Route::post('/codeChallengeFormData', [CodeChallengeController::class, 'codeChallengeFormData']);
+});
