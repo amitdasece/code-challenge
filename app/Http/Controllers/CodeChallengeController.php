@@ -114,46 +114,6 @@ class CodeChallengeController extends ApiController
 	
 	
 	
-	/**
-        * @OA\Post(
-        * path="/api/V1/codeChallengeFormData",
-        * operationId="codeChallengeFormData",
-        * tags={"codeChallengeFormData"},
-        * summary="codeChallengeFormData",
-        * description="codeChallengeFormData",
-        *     @OA\RequestBody(
-        *         @OA\JsonContent(),
-        *         @OA\MediaType(
-        *            mediaType="multipart/form-data",
-        *            @OA\Schema(
-        *               type="object",
-        *               required={"energy", "time","transaction"},
-        *               @OA\Property(property="energy", type="integer"),
-        *               @OA\Property(property="time", type="integer"),
-						@OA\Property(property="transaction", type="integer")
-        *            ),
-        *        ),
-        *    ),
-        *      @OA\Response(
-        *          response=201,
-        *          description="output Successfully",
-        *          @OA\JsonContent()
-        *       ),
-        *      @OA\Response(
-        *          response=200,
-        *          description="output Successfully",
-        *          @OA\JsonContent()
-        *       ),
-        *      @OA\Response(
-        *          response=422,
-        *          description="Unprocessable Entity",
-        *          @OA\JsonContent()
-        *       ),
-        *      @OA\Response(response=400, description="Bad request"),
-        *      @OA\Response(response=404, description="Resource Not Found"),
-        * )
-        */
-	
 	
 	
 	
