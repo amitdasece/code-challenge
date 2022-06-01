@@ -1,5 +1,6 @@
 <h1 dir="auto" data-sourcepos="1:1-1:23">Coding Challenge</h1>
-<p dir="auto" data-sourcepos="2:1-2:62">Presentation of output response based on an input request. I tried to use both RAW data and FORM data in input response </p>
+<p dir="auto" data-sourcepos="2:1-2:62">Presentation of output response based on an input request. I tried to use both RAW data and FORM data in input response.</p>
+<p dir="auto" data-sourcepos="2:1-2:62">Additionally I have built function in FORM data request as well since it will be helpful to upload huge data using FILE Upload </p>
 <h2 dir="auto" data-sourcepos="26:1-26:15"> <a aria-hidden="true" href="#installation" id="user-content-installation"></a>Installation</h2>
 <ul dir="auto" data-sourcepos="28:1-34:78">
   <li data-sourcepos="28:1-29:1">Clone git from the Repository (git clone <a rel="nofollow noreferrer noopener" href="https://github.com/amitdasece/code-challenge.git">https://github.com/amitdasece/code-challenge.git</a> )</li>
